@@ -1,0 +1,19 @@
+title: ROOST Community Playground
+description: A collection of community projects, experiments, and demos built on or from ROOST open source projects.
+theme-color: "rgb(238, 238, 0)"
+
+mastodon:
+  handle: "@roost@hachyderm.io"
+  url: "https://hachyderm.io/@roost"
+bluesky:
+  handle: "@roost.tools"
+  url: "https://bsky.app/profile/roost.tools"
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
