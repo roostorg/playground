@@ -64,6 +64,14 @@ header nav {
 
 header nav a {
   color: inherit;
+  font-family: var(--font-display);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header nav a:hover,
+header nav a:focus {
+  text-decoration: underline;
 }
 
 main {
