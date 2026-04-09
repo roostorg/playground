@@ -65,6 +65,8 @@
       }
 
       header nav {
+        display: flex;
+        justify-content: space-between;
         margin-inline: auto;
         max-width: var(--max-width);
         padding-inline: 1rem;
@@ -94,7 +96,11 @@
       }
 
       ul#projects {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
         list-style: none;
+        margin-block-start: 3em;
         padding: 0;
       }
 
@@ -104,7 +110,6 @@
         border-radius: 1em;
         color: inherit;
         display: block;
-        margin-block: 2em;
         padding: 1em 1.5em;
         text-decoration: none;
       }
@@ -117,7 +122,8 @@
         --project-color: var(--roost-muddy);
       }
 
-      #projects a:hover {
+      #projects a:hover,
+      #projects a:focus {
         background-color: color-mix(var(--project-color) 10%, transparent);
       }
 
@@ -136,6 +142,7 @@
     <header>
       <nav>
         <a href="https://roost.tools">← ROOST.tools main site</a>
+        <a href="https://github.com/roostorg/playground">Source Code</a>
       </nav>
     </header>
     <main>
@@ -151,14 +158,14 @@
         </li>
         <li>
           <a href="#">
-            <h2>Project name</h2>
-            <p>Brief project description</p>
+            <h2>Different project name</h2>
+            <p>Brief but slightly longer project description</p>
           </a>
         </li>
         <li>
           <a href="#">
-            <h2>Project name</h2>
-            <p>Brief project description</p>
+            <h2>Another project name</h2>
+            <p>Briefer project description</p>
           </a>
         </li>
         <li>
