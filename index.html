@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Playground · ROOST (Robust Open Online Safety Tools)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --roost-gray: rgb(187, 193, 190);
+        --roost-dark: hsl(80, 22%, 13%);
+        --roost-yellow: rgb(238, 238, 0);
+        --roost-peach: rgb(247, 187, 128);
+        --roost-muddy: rgb(229, 217, 136);
+
+        --bg: white;
+        --fg: var(--roost-dark);
+        --font-sans: "Funnel Sans", sans-serif;
+        --font-display: "Funnel Display", sans-serif;
+        --max-width: 800px;
+
+        background-color: var(--bg);
+        color: var(--fg);
+        color-scheme: light dark;
+        font-family: var(--font-sans);
+        font-optical-sizing: auto;
+        font-style: normal;
+        scroll-behavior: smooth;
+        text-wrap: balance;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: var(--roost-dark);
+          --fg: rgba(255, 255, 255, 0.9);
+        }
+      }
+
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
+
+      html, body {
+        margin: 0;
+      }
+
+      @media (min-width: 320px) {
+        body {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 600px) {
+        body {
+          font-size: 18px;
+        }
+      }
+
+      header {
+        background-color: var(--roost-dark);
+        color: var(--roost-yellow);
+        padding-block: 1em;
+      }
+
+      header nav {
+        margin-inline: auto;
+        max-width: var(--max-width);
+        padding-inline: 1rem;
+      }
+
+      header nav a {
+        color: inherit;
+      }
+
+      main {
+        margin-inline: auto;
+        max-width: var(--max-width);
+        padding-inline: 1rem;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-display);
+      }
+
+      h1 {
+        margin-top: 2em;
+      }
+
+      h1 + p {
+        font-size: 1.2em;
+        line-height: 1.33;
+      }
+
+      ul#projects {
+        list-style: none;
+        padding: 0;
+      }
+
+      #projects a {
+        --project-color: var(--roost-yellow);
+        border: 2px dashed var(--project-color);
+        border-radius: 1em;
+        color: inherit;
+        display: block;
+        margin-block: 2em;
+        padding: 1em 1.5em;
+        text-decoration: none;
+      }
+
+      #projects li:nth-child(3n-1) a {
+        --project-color: var(--roost-peach);
+      }
+
+      #projects li:nth-child(3n) a {
+        --project-color: var(--roost-muddy);
+      }
+
+      #projects a:hover {
+        background-color: color-mix(var(--project-color) 10%, transparent);
+      }
+
+      #projects h2 {
+        margin: 0 auto 0.5em;
+        padding: 0;
+      }
+
+      #projects p {
+        margin: 0 auto;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="https://roost.tools">← ROOST.tools main site</a>
+      </nav>
+    </header>
+    <main>
+      <h1>ROOST Playground</h1>
+      <p>A collection of community projects, experiments, and demos built on or from ROOST open source projects.</p>
+      <p>Projects on this page are not developed or endorsed by ROOST.</p>
+      <ul id="projects">
+        <li>
+          <a href="#">
+            <h2>Project name</h2>
+            <p>Brief project description</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <h2>Project name</h2>
+            <p>Brief project description</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <h2>Project name</h2>
+            <p>Brief project description</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <h2>Project name</h2>
+            <p>Brief project description</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <h2>Project name</h2>
+            <p>Brief project description</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <h2>Project name</h2>
+            <p>Brief project description</p>
+          </a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
+
