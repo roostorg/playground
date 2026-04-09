@@ -25,3 +25,12 @@
     - osprey
     - atproto
     - labeler
+
+- title: atproto-ruleset
+  description: |
+    Osprey ruleset made for moderating Bluesky and other AT Protocol apps
+  url: https://github.com/haileyok/atproto-ruleset
+  tags:
+    - osprey
+    - atproto
+    - ruleset
