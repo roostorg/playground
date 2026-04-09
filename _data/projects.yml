@@ -1,0 +1,6 @@
+- title: haileyok/phoebe
+  description: Trust and safety agent that interacts with Osprey for investigation, real-time analysis, and prevention implementations
+  url: https://github.com/haileyok/phoebe
+  tags:
+    - osprey
+    - agent

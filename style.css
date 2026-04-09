@@ -9,7 +9,7 @@
   --fg: var(--roost-dark);
   --font-sans: "Funnel Sans", sans-serif;
   --font-display: "Funnel Display", sans-serif;
-  --max-width: 800px;
+  --max-width: 1000px;
 
   background-color: var(--bg);
   color: var(--fg);
@@ -100,6 +100,7 @@ ul#projects {
   border-radius: 1em;
   color: inherit;
   display: block;
+  max-width: calc(var(--max-width) / 2);
   padding: 1em 1.5em;
   text-decoration: none;
 }
@@ -125,4 +126,14 @@ ul#projects {
 #projects p {
   margin: 0 auto;
   padding: 0;
+}
+
+#projects .tag {
+  background-color: var(--project-color);
+  border-radius: 999px;
+  color: var(--roost-dark);
+  display: inline-block;
+  font-size: 0.8em;
+  padding: 0.125em 0.5em;
+  margin-top: 1em;
 }
