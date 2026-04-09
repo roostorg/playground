@@ -1,6 +1,27 @@
-- title: haileyok/phoebe
-  description: Trust and safety agent that interacts with Osprey for investigation, real-time analysis, and prevention implementations
+- title: phoebe
+  description: |
+    Trust and safety agent that interacts with Osprey for investigation,
+    real-time analysis, and prevention implementations
   url: https://github.com/haileyok/phoebe
   tags:
     - osprey
     - agent
+
+- title: osprey-for-atproto
+  description: |
+    Fork of Osprey with atproto-specific integration and configuration
+  url: https://github.com/haileyok/osprey-for-atproto
+  tags:
+    - osprey
+    - atproto
+    - fork
+
+- title: "skywatch.blue"
+  description: |
+    Independent labeling service for AT Protocol (e.g. Bluesky), powered by
+    Osprey
+  url: http://skywatch.blue
+  tags:
+    - osprey
+    - atproto
+    - labeler
