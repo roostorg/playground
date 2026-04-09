@@ -6,9 +6,10 @@ layout: default
 <p>{{ site.description }}</p>
 <p>Projects on this page are not developed or endorsed by ROOST, and may not be intended for production use. Check each project’s documentation for details.</p>
 <ul id="projects">
-  {% for project in site.data.projects %}
+  {% assign projects = site.data.projects | sort: 'title' %}
+  {% for project in projects %}
     <li>
-      <a href="{{ project.url }}">
+      <a href="{{ project.url }}" target="_blank">
         <h2>{{ project.title }}</h2>
         <p>{{ project.description }}</p>
         {% for tag in project.tags %}
@@ -17,40 +18,4 @@ layout: default
       </a>
     </li>
   {% endfor %}
-  <li>
-    <a href="#">
-      <h2>Project name</h2>
-      <p>Brief project description</p>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <h2>Different project name</h2>
-      <p>Brief but slightly longer project description</p>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <h2>Another project name</h2>
-      <p>Briefer project description</p>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <h2>Project name</h2>
-      <p>Brief project description</p>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <h2>Project name</h2>
-      <p>Brief project description</p>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <h2>Project name</h2>
-      <p>Brief project description</p>
-    </a>
-  </li>
 </ul>
