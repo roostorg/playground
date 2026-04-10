@@ -51,7 +51,7 @@ html, body {
 header {
   background-color: var(--roost-dark);
   color: var(--roost-yellow);
-  padding-block: 1em;
+  padding-block: 0.5em;
 }
 
 header nav {
@@ -66,6 +66,7 @@ header nav a {
   color: inherit;
   font-family: var(--font-display);
   font-weight: bold;
+  padding-block: 0.5em;
   text-decoration: none;
 }
 
@@ -150,4 +151,33 @@ ul#projects {
   font-size: 0.8em;
   padding: 0.125em 0.5em;
   margin-top: 1em;
+}
+
+.button {
+  background-image: linear-gradient(
+    135deg,
+    var(--roost-yellow),
+    var(--roost-muddy),
+    var(--roost-peach)
+  );
+  background-position: center;
+  background-size: 175%;
+  border-radius: 0.25em;
+  color: var(--roost-dark);
+  font-weight: 600;
+  padding: 0.5em 1em;
+  transition:
+    background-size 1s ease-in-out,
+    box-shadow 200ms ease-in-out,
+    color 200ms ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+  background-size: 100%;
+  color: color-mix(var(--roost-dark) 80%, transparent);
+  text-decoration: none;
+  box-shadow:
+    -3px -3px 12px -3px var(--roost-yellow),
+    3px 3px 12px -3px var(--roost-peach);
 }
