@@ -1,6 +1,7 @@
 title: ROOST Community Playground
 description: A collection of community projects, experiments, and demos built on or from ROOST open source projects.
 theme-color: "rgb(238, 238, 0)"
+card: /images/card.png
 
 mastodon:
   handle: "@roost@hachyderm.io"
