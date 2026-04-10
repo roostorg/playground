@@ -4,7 +4,11 @@ Community demos and projects built on or from ROOST projects. Projects listed in
 
 ## Project eligibility
 
-- Built on, from, or to be used with an existing ROOST open source project (otherwise, please add it to [Awesome Safety Tools](https://github.com/roostorg/awesome-safety-tools))
+- Built on, from, or to be used with an existing ROOST open source project
+
+  - If related to online trust & safety but not a ROOST project specifically, please add it to [Awesome Safety Tools](https://github.com/roostorg/awesome-safety-tools)) instead
+
+  - If related to an open-weight LLM or other safety model, please see the [ROOST Model Community](https://github.com/roostorg/model-community)
 
 - Accessible on the web, ideally with source code
 
