@@ -1,7 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
-  <path d="M 949.7,415.2 V 153.9 C 949.7,68.9 880.8,0 795.7,0 H 522 L 711.5,189.5 416,482.2 V 189.4 H 0 l 416,416 v 0 c 0,0 158.7,158.7 158.7,158.7 h -210 v 266.8 L 656.8,1200 949.7,1030.9 v -266.8 0 0 c 0,0 -194.9,-195 -194.9,-195 h 41 c 85,0 153.9,-68.9 153.9,-153.9 z M 364.7,237.7 V 481.6 L 120.8,237.7 Z M 416,812.4 h 215.3 v 313.5 L 416,1001.3 Z m 482.4,188.9 -215.3,124.3 V 812.4 H 898.4 Z M 877.2,764.1 H 647.3 l -195,-195 H 682.2 Z M 449.2,520.9 784.1,189.4 642.9,48.2 H 790.5 C 850,48.2 898.3,96.4 898.3,156 V 413.2 C 898.3,472.7 850.1,521 790.5,521 H 449.1 Z" />
-
-  <style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 64 64"
+   width="64"
+   height="64"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="12.672163"
+     inkscape:cx="31.052316"
+     inkscape:cy="30.77612"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.4"
+       color="#0099e5"
+       opacity="0.101961"
+       empspacing="4"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <path
+     d="M 51.650677,22.144 V 8.208 C 51.650677,3.6746666 47.976011,0 43.437345,0 H 28.840011 l 10.106666,10.106667 -15.76,15.610667 V 10.101333 H 1 L 23.186677,32.288 v 0 c 0,0 8.464,8.464 8.464,8.464 H 20.450664 V 54.981334 L 36.029345,64 51.650677,54.981334 V 40.752 v 0 0 c 0,0 -10.394666,-10.4 -10.394666,-10.4 h 2.186666 c 4.533334,0 8.208,-3.674666 8.208,-8.208 z M 20.450664,12.677333 V 25.685334 L 7.4426658,12.677333 Z M 23.186677,43.328 h 11.482668 v 16.72 L 23.186677,53.402666 Z m 25.728,10.074666 L 37.432011,60.032 V 43.328 H 48.914677 Z M 47.784011,40.752 H 35.522677 l -10.4,-10.4 H 37.384011 Z M 24.957345,27.781334 42.818677,10.101333 35.288011,2.5706666 h 7.872 c 3.173334,0 5.749334,2.5706668 5.749334,5.7493334 v 13.717334 c 0,3.173332 -2.570668,5.749332 -5.749334,5.749332 h -18.208 z"
+     id="path1"
+     style="stroke-width:0.0533334" />
+  <style
+     id="style1">
     path { fill: hsl(80, 22%, 13%) }
 
     @media (prefers-color-scheme: dark) {
