@@ -14,7 +14,7 @@ Community demos and projects built on or from ROOST projects. Projects listed in
 
 ## Adding a project
 
-Projects live in [`_data/projects.yml`](_data/projects.yml). Open a pull request to add your own project, ensuring you include:
+Projects live in [`_data/projects.yml`](_data/projects.yml). Open a pull request or file an issue to add your own project, ensuring you include:
 
 1. Title
 2. Description
