@@ -34,3 +34,11 @@
     - osprey
     - atproto
     - ruleset
+
+- title: fruitfly
+  description: |
+    Experimental self-contained Osprey-like rules engine using Starlark and DuckDB 
+  url: https://github.com/vinaysrao1/fruitfly
+  tags:
+    - osprey
+    - rewrite
