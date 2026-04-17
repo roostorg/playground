@@ -42,3 +42,12 @@
   tags:
     - osprey
     - rewrite
+
+- title: nest
+  description: |
+    Experimental Coop-like content moderation rules engine using Starlark,
+    PostgreSQL, Go, and NiceGUI
+  url: https://github.com/vinaysrao1/nest
+  tags:
+    - coop
+    - rewrite
