@@ -54,10 +54,20 @@
 
 - title: skywatch-skills
   description: |
-    Claude Code plugins for AT Protocol moderation, including investigating coordinated
-    behaviour, authoring Osprey SML rules, and managing Ozone queues
-  url: https://github.com/vinaysrao1/nest
+    Claude Code plugins for AT Protocol moderation, including investigating
+    coordinated behaviour, authoring Osprey SML rules, and managing Ozone queues
+  url: https://github.com/skywatch-bsky/claude-skills
+  tags:
+    - osprey
+    - agent
+    - atproto
+    - ozone
+
+- title: osprey-sidecars
+  description: |
+    Statistical detection sidecars for Osprey and AT Protocol moderation to
+    enable batch analyses
+  url: https://github.com/skywatch-bsky/osprey-sidecars
   tags:
     - osprey
     - atproto
-    - ozone
