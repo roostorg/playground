@@ -51,3 +51,13 @@
   tags:
     - coop
     - rewrite
+
+- title: skywatch-skills
+  description: |
+    Claude Code plugins for AT Protocol moderation, including investigating coordinated
+    behaviour, authoring Osprey SML rules, and managing Ozone queues
+  url: https://github.com/vinaysrao1/nest
+  tags:
+    - osprey
+    - atproto
+    - ozone
