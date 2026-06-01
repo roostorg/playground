@@ -1,12 +1,12 @@
 :root {
   --roost-gray: rgb(187, 193, 190);
-  --roost-dark: hsl(80, 22%, 13%);
+  --roost-charcoal: hsl(80, 22%, 13%);
   --roost-yellow: rgb(238, 238, 0);
   --roost-peach: rgb(247, 187, 128);
   --roost-muddy: rgb(229, 217, 136);
 
   --bg: white;
-  --fg: var(--roost-dark);
+  --fg: var(--roost-charcoal);
   --font-sans: "Funnel Sans", sans-serif;
   --font-display: "Funnel Display", sans-serif;
   --max-width: 1000px;
@@ -23,7 +23,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: var(--roost-dark);
+    --bg: color-mix(var(--roost-charcoal) 90%, black);
     --fg: rgba(255, 255, 255, 0.9);
   }
 }
@@ -49,7 +49,7 @@ html, body {
 }
 
 header {
-  background-color: var(--roost-dark);
+  background-color: var(--roost-charcoal);
   box-shadow: 0 0.25em 1em rgba(0 0 0 / 0.25);
   color: var(--roost-yellow);
   padding-block: 0.5em;
@@ -82,6 +82,35 @@ main {
   margin-inline: auto;
   max-width: var(--max-width);
   padding-inline: 1rem;
+  padding-block-end: 4rem;
+}
+
+footer {
+  background-color: var(--roost-charcoal);
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin-block: 0;
+  margin-inline: auto;
+  max-width: var(--max-width);
+  opacity: 0.8;
+  padding-block: 2rem;
+  padding-inline: 1rem;
+}
+
+footer img {
+  background-color: light-dark(
+    var(--roost-gray),
+    color-mix(var(--roost-gray) 50%, transparent)
+  );
+  display: block;
+  padding: 1.5rem;
+}
+
+img {
+  max-width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -149,7 +178,7 @@ ul#projects {
 .tag {
   background-color: var(--project-color);
   border-radius: 999px;
-  color: var(--roost-dark);
+  color: var(--roost-charcoal);
   display: inline-block;
   font-size: 0.8em;
   padding: 0.125em 0.5em;
@@ -166,7 +195,7 @@ ul#projects {
   background-position: center;
   background-size: 175%;
   border-radius: 0.25em;
-  color: var(--roost-dark);
+  color: var(--roost-charcoal);
   font-weight: 600;
   padding: 0.5em 1em;
   transition:
@@ -178,7 +207,7 @@ ul#projects {
 .button:hover,
 .button:focus {
   background-size: 100%;
-  color: color-mix(var(--roost-dark) 80%, transparent);
+  color: color-mix(var(--roost-charcoal) 80%, transparent);
   text-decoration: none;
   box-shadow:
     -3px -3px 12px -3px var(--roost-yellow),
