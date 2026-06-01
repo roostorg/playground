@@ -50,8 +50,11 @@ html, body {
 
 header {
   background-color: var(--roost-dark);
+  box-shadow: 0 0.25em 1em rgba(0 0 0 / 0.25);
   color: var(--roost-yellow);
   padding-block: 0.5em;
+  position: sticky;
+  top: 0;
 }
 
 header nav {
