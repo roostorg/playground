@@ -1,3 +1,5 @@
+remote_theme: roostorg/jekyll-theme
+
 title: ROOST Community Playground
 description: A collection of community projects, experiments, and demos built on or from ROOST open source projects.
 theme-color: "#24291a"
@@ -17,4 +19,5 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-remote-theme
   - jekyll-sitemap
